@@ -1,0 +1,10 @@
+﻿git clone 
+
+cd rsa_decryptor
+
+dotnet build rsa_decryptor.csproj
+
+cd bin\Debug\net6.0
+
+rsa_decryptor.exe r [pri_key_path] [encrypt_content]
+output content
